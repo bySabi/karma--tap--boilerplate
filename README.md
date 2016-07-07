@@ -1,11 +1,11 @@
 # A Karma-Tape test boilerplate configuration
-Karma setting for bundle tests with webpack and function on file `watch` mode.
+Karma setting for test webpack bundles in `watch` mode, retrigged test on file changes.
 
 ## Include
   * webpack
   * karma
+  * karma tap plugins
   * tape
-  * test file example
 
 ## Usage
 
@@ -15,7 +15,7 @@ npm install
 npm run testonly
 
 ```
-Edit `spec/test_spec.js` to see file watch functionality in action
+Edit `spec/test_spec.js` to see `watch` file functionality in action
 
 
 ## Contributing
