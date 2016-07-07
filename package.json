@@ -1,0 +1,39 @@
+{
+  "name": "karma--tap--boilerplate",
+  "version": "1.0.0",
+  "description": "Karma and TAP boilerplate test files",
+  "keywords": [
+    "karma",
+    "karma-tap",
+    "tape",
+    "tap"
+  ],
+  "scripts": {
+    "karma": "karma start",
+    "testonly:jsdom": "cross-env JSDOM=true npm run karma",
+    "testonly:chrome": "npm run karma",
+    "testonly": "npm run testonly:chrome",
+    "test": "npm run testonly"
+  },
+  "devDependencies": {
+    "babel-cli": "6.x.x",
+    "babel-loader": "6.x.x",
+    "babel-preset-es2015": "6.x.x",
+    "babel-preset-react": "6.x.x",
+    "babel-preset-stage-2": "6.x.x",
+    "babel-plugin-transform-class-properties": "6.x.x",
+    "karma": "1.x.x",
+    "karma-chrome-launcher": "1.x.x",
+    "karma-jsdom-launcher": "2.x.x",
+    "karma-tap": "bySabi/karma-tap",
+    "karma-tap-reporter": "bySabi/karma-tap-reporter",
+    "karma-webpack": "goldhand/karma-webpack",
+    "tape": "4.x.x",
+    "webpack": "^2.1.0-beta",
+    "cross-env": "*",
+    "mkdirp": "*",
+    "rimraf": "*"
+  },
+  "author": "bySabi Files",
+  "license": "ISC"
+}
