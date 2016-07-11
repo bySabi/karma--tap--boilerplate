@@ -13,7 +13,9 @@
     "testonly:jsdom": "cross-env JSDOM=true npm run karma",
     "testonly:chrome": "npm run karma",
     "testonly": "npm run testonly:chrome",
-    "test": "npm run testonly"
+    "test": "npm run testonly",
+    "removeme:test:tap-spec:": "babel-node ./spec/test_spec.js | tap-spec",
+    "removeme:test:faucet": "babel-node ./spec/test_spec.js | faucet"
   },
   "devDependencies": {
     "babel-cli": "6.x.x",
@@ -26,9 +28,19 @@
     "karma-chrome-launcher": "1.x.x",
     "karma-jsdom-launcher": "2.x.x",
     "karma-tap": "bySabi/karma-tap",
-    "karma-tap-reporter": "bySabi/karma-tap-reporter",
+    "karma-tap-pretty-reporter": "1.x.x",
     "karma-webpack": "goldhand/karma-webpack",
     "tape": "4.x.x",
+
+    "faucet": "*",
+    "tap-spec": "*",
+    "tap-min": "*",
+    "tap-difflet": "*",
+    "tap-diff": "*",
+    "tap-notify": "*",
+    "tap-summary": "*",
+    "tap-markdown": "*",
+
     "webpack": "^2.1.0-beta",
     "cross-env": "*",
     "mkdirp": "*",

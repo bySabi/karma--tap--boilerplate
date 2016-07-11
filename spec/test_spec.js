@@ -6,10 +6,16 @@ test('beep', function (t) {
   t.same({a:1,b:2},{a:1,b:1+1});
 });
 
+test('beep2', function (t) {
+  t.plan(2);
+  t.equal(2+2,5);
+  t.same({a:1,b:2},{a:1,b:1+1});
+});
+
 test('skipped', { skip: true }, function(t) {
   t.fail();
   t.end();
-})
+});
 
 test('boop', function (t) {
   t.plan(2);

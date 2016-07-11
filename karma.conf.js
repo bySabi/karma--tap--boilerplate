@@ -50,9 +50,16 @@ module.exports = function(config) {
 
     // test results reporter to use
     // possible values: 'dots', 'progress'
-    //  from modules: 'tap', 'tape', 'mocha'
     // available reporters: https://npmjs.org/browse/keyword/karma-reporter
-    reporters: ['tap'],
+    reporters: ['tap-pretty'],
+
+    // prettifier's: 'faucet', 'tap-spec', 'tap-min', 'tap-diff',
+    // 'tap-notify', 'tap-summary', 'tap-markdown'
+    tapReporter: {
+      // outputFile: './unit.tap',
+      prettifier: 'tap-dot',
+      separator: true
+    },
 
     // web server port
     port: 9876,
@@ -63,11 +70,18 @@ module.exports = function(config) {
     // level of logging
     // possible values: config.LOG_DISABLE || config.LOG_ERROR ||
     // config.LOG_WARN || config.LOG_INFO || config.LOG_DEBUG
-    logLevel: config.LOG_DISABLE,
+    logLevel: config.LOG_INFO,
 
     // enable / disable watching file and executing tests whenever any file
     // changes
     autoWatch: true,
+
+    // enable / disable browser logs on terminal
+    browserConsoleLogOptions: {
+      level: 'error',
+      format: '%b %T: %m',
+      terminal: false
+    },
 
     // start these browsers
     // available browser launchers:
