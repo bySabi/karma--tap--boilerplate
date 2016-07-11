@@ -57,7 +57,7 @@ module.exports = function(config) {
     // 'tap-notify', 'tap-summary', 'tap-markdown'
     tapReporter: {
       // outputFile: './unit.tap',
-      prettifier: 'tap-dot',
+      prettifier: 'faucet',
       separator: true
     },
 
