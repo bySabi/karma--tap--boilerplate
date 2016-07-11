@@ -5,6 +5,7 @@ Karma setting for test webpack bundles in `watch` mode, retrigged test on file c
   * webpack
   * karma
   * karma tap plugins
+  * karma tap prettifiers
   * tape
 
 ## Usage
