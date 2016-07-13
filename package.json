@@ -26,7 +26,7 @@
     "babel-plugin-transform-class-properties": "6.x.x",
     "karma": "1.x.x",
     "karma-chrome-launcher": "1.x.x",
-    "karma-jsdom-launcher": "2.x.x",
+    "karma-jsdom-launcher": "3.x.x",
     "karma-tap": "2.x.x",
     "karma-tap-pretty-reporter": "1.x.x",
     "karma-webpack": "goldhand/karma-webpack",
