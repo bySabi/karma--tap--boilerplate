@@ -31,7 +31,6 @@
     "karma-tap-pretty-reporter": "1.x.x",
     "karma-webpack": "goldhand/karma-webpack",
     "tape": "4.x.x",
-
     "faucet": "*",
     "tap-spec": "*",
     "tap-min": "*",
@@ -40,11 +39,10 @@
     "tap-notify": "*",
     "tap-summary": "*",
     "tap-markdown": "*",
-
     "webpack": "^2.1.0-beta",
     "cross-env": "*",
     "mkdirp": "*",
-    "rimraf": "*"
+    "rimraf": "2.5.4"
   },
   "author": "bySabi Files",
   "license": "ISC"
