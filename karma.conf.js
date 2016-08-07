@@ -28,15 +28,15 @@ module.exports = function(config) {
 
     webpack: {
       resolve: {
-        extensions: ['', '.js', '.jsx']
+        extensions: ['', '.js', '.jsx', '.json']
       },
       module: {
         loaders: [
           {
             test: /\.jsx?|\.js$/,
-            loaders: ['babel-loader?cacheDirectory=true'],
+            loader: ['babel-loader?cacheDirectory=true'],
             exclude: /node_modules/
-          }
+          },
         ]
       },
       node: {

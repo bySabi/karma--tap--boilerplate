@@ -1,6 +1,6 @@
 {
   "name": "karma--tap--boilerplate",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Karma and TAP boilerplate test files",
   "keywords": [
     "karma",
@@ -19,7 +19,6 @@
   },
   "devDependencies": {
     "babel-cli": "6.x.x",
-    "babel-loader": "6.x.x",
     "babel-preset-es2015": "6.x.x",
     "babel-preset-react": "6.x.x",
     "babel-preset-stage-2": "6.x.x",
@@ -29,8 +28,9 @@
     "karma-jsdom-launcher": "3.x.x",
     "karma-tap": "2.x.x",
     "karma-tap-pretty-reporter": "1.x.x",
-    "karma-webpack": "webpack/karma-webpack",
+    "karma-webpack": "bySabi/karma-webpack",
     "tape": "4.x.x",
+    "tap-lochnest": "1.x.x",
 
     "faucet": "*",
     "tap-spec": "*",
@@ -41,7 +41,9 @@
     "tap-summary": "*",
     "tap-markdown": "*",
 
+    "babel-loader": "6.x.x",
     "webpack": "^2.1.0-beta",
+
     "cross-env": "*",
     "mkdirp": "*",
     "rimraf": "*"
