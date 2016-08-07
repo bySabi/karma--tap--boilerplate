@@ -31,13 +31,16 @@ module.exports = function(config) {
         extensions: ['', '.js', '.jsx', '.json']
       },
       module: {
-        loaders: [
-          {
-            test: /\.jsx?|\.js$/,
-            loader: ['babel-loader?cacheDirectory=true'],
-            exclude: /node_modules/
-          },
-        ]
+        // used Babel for test
+        /*
+          loaders: [
+            {
+              test: /\.jsx?|\.js$/,
+              loader: ['babel-loader?cacheDirectory=true'],
+              exclude: /node_modules/
+            },
+          ]
+        */
       },
       node: {
         fs: 'empty'
