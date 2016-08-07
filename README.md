@@ -7,7 +7,7 @@
 
 This project is not a full starting point repository, only cover boilerplate settings related to `test`. Don't opinionated on `build`, `lint` or any other topic relate to projects development.
 
-Setting `Karma` with many plugins it is a time consuming process, many hours of `trial and error`
+Setting `Karma` with many plugins it is a time consuming process, many hours of trial and error.
 
 ## What's include ?
 * [karma][karma], the test runner.
