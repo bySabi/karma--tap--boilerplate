@@ -1,4 +1,4 @@
-DEPRECATED - This package is deprecated in favor of [carma-tap-webpack](https://github.com/bySabi/carma-tap-webpack)
+# DEPRECATED - This package is deprecated in favor of [carma-tap-webpack](https://github.com/bySabi/carma-tap-webpack)
 
 # a Karma and TAP test boilerplate configuration.
 
