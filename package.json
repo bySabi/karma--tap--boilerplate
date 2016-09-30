@@ -22,7 +22,7 @@
     "karma-tap": "2.x.x",
     "karma-tap-pretty-reporter": "1.x.x",
     "karma-webpack": "bySabi/karma-webpack",
-    "tape": "4.x.x",
+    "tape": "4.6.2",
     "tap-lochnest": "1.x.x",
 
     "faucet": "*",
