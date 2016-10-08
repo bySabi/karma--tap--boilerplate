@@ -19,7 +19,7 @@
     "karma": "1.x.x",
     "karma-chrome-launcher": "1.x.x",
     "karma-jsdom-launcher": "3.x.x",
-    "karma-tap": "2.x.x",
+    "karma-tap": "3.1.0",
     "karma-tap-pretty-reporter": "1.x.x",
     "karma-webpack": "bySabi/karma-webpack",
     "tape": "4.x.x",
