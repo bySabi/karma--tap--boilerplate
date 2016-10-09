@@ -28,7 +28,7 @@
     "faucet": "*",
     "tap-spec": "*",
     "tap-min": "*",
-    "tap-difflet": "*",
+    "tap-difflet": "0.7.0",
     "tap-diff": "*",
     "tap-notify": "*",
     "tap-summary": "*",
