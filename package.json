@@ -24,7 +24,6 @@
     "karma-webpack": "bySabi/karma-webpack",
     "tape": "4.x.x",
     "tap-lochnest": "1.x.x",
-
     "faucet": "*",
     "tap-spec": "*",
     "tap-min": "*",
@@ -33,10 +32,8 @@
     "tap-notify": "*",
     "tap-summary": "*",
     "tap-markdown": "*",
-
     "webpack": "^2.1.0-beta",
-
-    "cross-env": "*"
+    "cross-env": "2.0.1"
   },
   "author": "bySabi Files",
   "license": "ISC"
